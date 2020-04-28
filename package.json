@@ -5,11 +5,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:e2e": "vue-cli-service test:e2e",
+    "test:e2e": "vue-cli-service test:e2e --use-selenium",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "nightwatch-html-reporter": "^2.0.6",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -21,6 +22,7 @@
     "chai": "^4.1.2",
     "chromedriver": "^80.0.1",
     "geckodriver": "^1.19.1",
+    "selenium-server": "^3.141.59",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
